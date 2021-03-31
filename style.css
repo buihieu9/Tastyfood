@@ -67,12 +67,14 @@ img {
   background: var(--first-color);
   color: #ffffff;
   width: fit-content;
+  width: -moz-fit-content;
   padding: 1.2rem;
   border-radius: 0.8rem;
   font-weight: normal;
   transition: background 0.3s ease;
   cursor: pointer;
 }
+
 .btn:hover {
   background: var(--first-color-alt);
 }
@@ -82,7 +84,7 @@ section {
 }
 
 .padding-similar {
-  padding-top: 12.8rem;
+  margin-top: 12.8rem;
   padding-bottom: 2rem;
 }
 
@@ -90,8 +92,8 @@ section {
 
 .backto-top {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 2rem;
+  right: 3rem;
   font-size: 4rem;
   cursor: pointer;
 
@@ -230,7 +232,7 @@ section {
 }
 /*=====================ANIMATION============ **/
 .top-to-down {
-  transform: translateY(-40%);
+  transform: translateY(-30%);
   opacity: 0;
   transition: all 1s;
 }
@@ -257,10 +259,11 @@ section {
 }
 
 #home {
-  height: calc(100vh);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: var(--height-header);
 }
 .home__container {
   width: 100%;
