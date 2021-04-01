@@ -84,7 +84,7 @@ section {
 }
 
 .padding-similar {
-  margin-top: 12.8rem;
+  padding-top: 12.8rem;
   padding-bottom: 2rem;
 }
 
@@ -505,8 +505,6 @@ section {
   #footer {
     padding: 0 1rem;
   }
-}
-@media screen and (max-width: 56.25em) {
   .main {
     padding: 0 1rem;
   }
